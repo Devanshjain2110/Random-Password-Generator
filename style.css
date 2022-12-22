@@ -24,6 +24,7 @@ body {
 }
 
 .pw-container {
+  border-radius: 20px;
   width: 400px;
   background-color: #bbe6b4;
   box-shadow: 0px 3px 8px #9c97f3;
@@ -31,6 +32,7 @@ body {
 
 .pw {
   padding-left: 10px;
+  font-size: 1.2rem;
   height: 50px;
   width: 100%;
   display: flex;
@@ -42,9 +44,9 @@ body {
   outline: none;
   opacity: 0;
 
-  position: relative;
-  top: -25px;
-  left: 185px;
+  position: absolute  ;
+  top: 225px;
+  left: 920px;
   cursor: pointer;
   transition: opacity 0.2s ease;
 }
@@ -54,6 +56,8 @@ body {
 }
 
 .pw-header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   padding: 10px 16px;
   background-color: #a3e79f;
 }
@@ -68,12 +72,12 @@ body {
   margin: 8px;
 }
 
-.generate {
+.generateE {
     margin-top: 10px;
   width: 100%;
   background-color: rgb(122, 156, 198);
  border: none;
-  border-radius: 7px;
+  border-radius: 12px;
   font-size: 1.2rem;
   padding: 10px;
   cursor: pointer;
